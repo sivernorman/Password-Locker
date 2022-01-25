@@ -38,7 +38,7 @@ class TestUser(unittest.TestCase) :
         self.assertEqual(self.new_user.eml,"kalondu@b.com")
         self.assertEqual(self.new_user.password,"222")
 
-
+#.
     def test_save_user(self):
         '''
         test_save_user test case to test if the user object is saved into the user user_list
