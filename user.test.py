@@ -52,7 +52,7 @@ class TestUser(unittest.TestCase) :
         '''
         test_save_multiple_user to check if we can save multiple user ojects to our user_list
         '''
-
+#.
         self.new_user.save_user()
         test_user=User("Test","user","0724655025","test@user.com","222")# new user
         test_user.save_user()
